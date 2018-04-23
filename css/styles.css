@@ -1,0 +1,22 @@
+img {
+	max-width: 100%;
+}
+
+.logo {
+	max-width: 20%;
+	display: inline-block;
+	margin-right: 5%;
+}
+
+.image {
+	max-width: 20%;
+}
+
+#google {
+	max-width: 35%;
+}
+
+footer {
+	margin-top: 2%;
+	background-color: gray;
+}

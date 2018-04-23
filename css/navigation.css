@@ -1,0 +1,49 @@
+.nav {
+	text-align: center;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	margin-left: 70%;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	padding: .98em 1em;
+	color: #efefef;
+}
+
+.nav a.is-current {
+	color: #C80000;
+	background-color: #efefef;
+}
+
+.nav li a:hover {
+	color: #C80000;
+	background-color: #efefef;
+}
+
+@media (max-width: 640px) {
+	.nav li {
+		display: block;
+	}
+	.nav {
+		margin-top: 30px;
+	}
+}
+
+.nav {
+	background-color: gray;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
