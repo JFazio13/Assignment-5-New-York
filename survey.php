@@ -15,6 +15,15 @@ include "includes/html-top.php";
 		?>
 
 			<h1>Survey</h1>
+			
+			<!–– 
+			Questions:
+			Name
+			Which is your fav?
+			What type of computer do you use?
+			
+			
+			-->
 
 			<hr>
 
