@@ -4,6 +4,9 @@ $page = "Survey";
 
 include "includes/html-top.php";
 
+
+//Questions: Name / Which is your fav? / What type of computer do you use?
+
 ?>
 
 	<body>
@@ -16,14 +19,8 @@ include "includes/html-top.php";
 
 			<h1>Survey</h1>
 			
-			<!–– 
-			Questions:
-			Name
-			Which is your fav?
-			What type of computer do you use?
-			-->
 			
-			<form method="post" action="#">
+			<form action="insert.php" method="post">
 			<fieldset>
 			<label for="name">Name</label>
 			<input type="text" id="name" name="name" placeholder="Your name..">
@@ -35,7 +32,7 @@ include "includes/html-top.php";
 				<option value="google">Google</option>
 			</select>
 	
-			<label for="lname">What type of computer do you use?</label>
+			<label for="computer">What type of computer do you use?</label>
 			<input type="text" id="computer" name="computer">
 
 			<input type="submit" value="Submit">
