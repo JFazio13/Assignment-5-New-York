@@ -19,5 +19,9 @@
 		<li>
 			<a href="survey.php">Survey</a>
 		</li>
+		
+		<li>
+			<a href="login.php">Log in</a>
+		</li>
 	</ul>
 </nav>
