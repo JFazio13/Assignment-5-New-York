@@ -103,8 +103,13 @@ $(document).ready(function(){
     $(document).on('blur', '.brand', function(){  
         var id = $(this).data("id2");  
         var brand = $(this).text();  
-        edit_data(id,brand, "brand");  
-    });  
+        edit_data(id, brand, "brand");  
+    }); 
+	$(document).on('blur', '.computer', function(){  
+        var id = $(this).data("id4");  
+        var computer = $(this).text();  
+        edit_data(id, computer, "computer");  
+    }); 
     $(document).on('click', '.btn_delete', function(){  
         var id=$(this).data("id3");  
         if(confirm("Are you sure you want to delete this?"))  

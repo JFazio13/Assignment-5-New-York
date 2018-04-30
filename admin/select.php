@@ -12,9 +12,9 @@
            <table class="table table-bordered">  
                 <tr>  
                      <th width="10%">Id</th>  
-                     <th width="40%">Name</th>  
-                     <th width="40%">Brand</th>
-					 <th width="40%">Computer</th>  
+                     <th width="30%">Name</th>  
+                     <th width="30%">Brand</th>
+					 <th width="30%">Computer</th>  
                      <th width="10%">Delete</th>  
                 </tr>';  
  $rows = mysqli_num_rows($result);
@@ -33,7 +33,7 @@
                      <td>'.$row["id"].'</td>  
                      <td class="name" data-id1="'.$row["id"].'" contenteditable>'.$row["name"].'</td>  
                      <td class="brand" data-id2="'.$row["id"].'" contenteditable>'.$row["brand"].'</td>  
-					 <td class="computer" data-id2="'.$row["id"].'" contenteditable>'.$row["computer"].'</td> 
+					 <td class="computer" data-id4="'.$row["id"].'" contenteditable>'.$row["computer"].'</td> 
                      <td><button type="button" name="delete_btn" data-id3="'.$row["id"].'" class="btn btn-xs btn-danger btn_delete">x</button></td>  
                 </tr>  
            ';  
