@@ -9,6 +9,6 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<title>Assignment 5| <?php echo $page ?></title>
+	<title>Assignment 5 | <?php echo $page ?></title>
 
 </head>
