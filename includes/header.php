@@ -1,3 +1,3 @@
 <header class="header">
-	<div><a href="index.php" class="title">Tech Giants</a></div>
+	<!--<div><a href="index.php" class="title">Tech Giants</a></div>-->
 </header>

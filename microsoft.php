@@ -18,11 +18,13 @@ include "includes/html-top.php";
 
 			<hr>
 
-			<div>
-				<img id = "microsoft" src="images/microsoft_head.jpg" alt="Microsoft">
-			</div>
+			<div class="logoRow">
+				<div>
+					<img id = "microsoft" src="images/microsoft_head.jpg" alt="Microsoft">
+				</div>
+				<p>Microsoft Corporation (/ˈmaɪkrəˌsɒft/,[2][3] abbreviated as MS) is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and services. Its best known software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers. As of 2016, it is the world's largest software maker by revenue,[4] and one of the world's most valuable companies.[5] The word "Microsoft" is a portmanteau of "microcomputer" and "software".</p>
 
-			<p>Microsoft Corporation (/ˈmaɪkrəˌsɒft/,[2][3] abbreviated as MS) is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and services. Its best known software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers. As of 2016, it is the world's largest software maker by revenue,[4] and one of the world's most valuable companies.[5] The word "Microsoft" is a portmanteau of "microcomputer" and "software".</p>
+			</div>
 
 			<hr>
 
@@ -60,28 +62,31 @@ include "includes/html-top.php";
 
 				<hr>
 
-				<div class="microsoft">
+				<h2>Iconic Products</h2>
 
-					<h2>Iconic Products</h2>
+				<div class="microsoftProducts">
 
-					<h3>Windows</h3>
+					<div class="windowsContent">
+						<h3 class="microsoftProductName">Windows</h3>
 
-					<div>
-						<img class = "image" src="images/windows.png" alt="Windows">
+						<div class="microsoftImage">
+							<img class = "image" src="images/windows.png" alt="Windows">
+						</div>
+
+						<p>Microsoft Windows is a group of several graphical operating system families, all of which are developed, marketed, and sold by Microsoft. Each family caters to a certain sector of the computing industry. Active Windows families include Windows NT and Windows Embedded; these may encompass subfamilies, e.g. Windows Embedded Compact (Windows CE) or Windows Server. Defunct Windows families include Windows 9x, Windows Mobile and Windows Phone.</p>
+
+						<p>Microsoft introduced an operating environment named Windows on November 20, 1985, as a graphical operating system shell for MS-DOS in response to the growing interest in graphical user interfaces (GUIs).[3] Microsoft Windows came to dominate the world's personal computer (PC) market with over 90% market share, overtaking Mac OS, which had been introduced in 1984. Apple came to see Windows as an unfair encroachment on their innovation in GUI development as implemented on products such as the Lisa and Macintosh (eventually settled in court in Microsoft's favor in 1993). On PCs, Windows is still the most popular operating system. However, in 2014, Microsoft admitted losing the majority of the overall operating system market to Android,[4] because of the massive growth in sales of Android smartphones. In 2014, the number of Windows devices sold was less than 25% that of Android devices sold. This comparison however may not be fully relevant, as the two operating systems traditionally target different platforms. Still, numbers for server use of Windows (that are comparable to competitors) show one third market share, similar to for end user use.</p>
 					</div>
 
-					<p>Microsoft Windows is a group of several graphical operating system families, all of which are developed, marketed, and sold by Microsoft. Each family caters to a certain sector of the computing industry. Active Windows families include Windows NT and Windows Embedded; these may encompass subfamilies, e.g. Windows Embedded Compact (Windows CE) or Windows Server. Defunct Windows families include Windows 9x, Windows Mobile and Windows Phone.</p>
+					<div class="officeContent">
+						<h3 class="microsoftProductName">Office</h3>
 
-					<p>Microsoft introduced an operating environment named Windows on November 20, 1985, as a graphical operating system shell for MS-DOS in response to the growing interest in graphical user interfaces (GUIs).[3] Microsoft Windows came to dominate the world's personal computer (PC) market with over 90% market share, overtaking Mac OS, which had been introduced in 1984. Apple came to see Windows as an unfair encroachment on their innovation in GUI development as implemented on products such as the Lisa and Macintosh (eventually settled in court in Microsoft's favor in 1993). On PCs, Windows is still the most popular operating system. However, in 2014, Microsoft admitted losing the majority of the overall operating system market to Android,[4] because of the massive growth in sales of Android smartphones. In 2014, the number of Windows devices sold was less than 25% that of Android devices sold. This comparison however may not be fully relevant, as the two operating systems traditionally target different platforms. Still, numbers for server use of Windows (that are comparable to competitors) show one third market share, similar to for end user use.</p>
+						<div class="microsoftImage">
+							<img class = "image" src="images/office.png" alt="Office">
+						</div>
 
-					<h3>Office</h3>
-
-					<div>
-						<img class = "image" src="images/office.png" alt="Office">
+						<p>Microsoft Office is a family of client software, server software, and services developed by Microsoft. It was first announced by Bill Gates on 1 August 1988, at COMDEX in Las Vegas. Initially a marketing term for an office suite (bundled set of productivity applications), the first version of Office contained Microsoft Word, Microsoft Excel, and Microsoft PowerPoint. Over the years, Office applications have grown substantially closer with shared features such as a common spell checker, OLE data integration and Visual Basic for Applications scripting language. Microsoft also positions Office as a development platform for line-of-business software under the Office Business Applications brand. On 10 July 2012, Softpedia reported that Office is used by over a billion people worldwide.</p>
 					</div>
-
-					<p>Microsoft Office is a family of client software, server software, and services developed by Microsoft. It was first announced by Bill Gates on 1 August 1988, at COMDEX in Las Vegas. Initially a marketing term for an office suite (bundled set of productivity applications), the first version of Office contained Microsoft Word, Microsoft Excel, and Microsoft PowerPoint. Over the years, Office applications have grown substantially closer with shared features such as a common spell checker, OLE data integration and Visual Basic for Applications scripting language. Microsoft also positions Office as a development platform for line-of-business software under the Office Business Applications brand. On 10 July 2012, Softpedia reported that Office is used by over a billion people worldwide.</p>
-
 				</div>
 
 			</div>

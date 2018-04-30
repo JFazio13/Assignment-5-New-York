@@ -18,11 +18,12 @@ include "includes/html-top.php";
 
 			<hr>
 
-			<div>
-				<img id = "google" src="images/google_head.jpg" alt="Google">
+			<div class="logoRow">
+				<div>
+					<img id = "google" src="images/google_head.jpg" alt="Google">
+				</div>
+				<p>Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University, California. Together, they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998. An Initial public offering (IPO) took place on August 19, 2004, and Google moved to its new headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google, Alphabet's leading subsidiary, will continue to be the umbrella company for Alphabet's Internet interests. Upon completion of the restructure, Sundar Pichai was appointed CEO of Google, replacing Larry Page, who became the CEO of Alphabet.</p>
 			</div>
-
-			<p>Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University, California. Together, they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998. An Initial public offering (IPO) took place on August 19, 2004, and Google moved to its new headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google, Alphabet's leading subsidiary, will continue to be the umbrella company for Alphabet's Internet interests. Upon completion of the restructure, Sundar Pichai was appointed CEO of Google, replacing Larry Page, who became the CEO of Alphabet.</p>
 
 			<hr>
 
@@ -60,7 +61,7 @@ include "includes/html-top.php";
 
 				<hr>
 
-				<div class="google">
+				<div class="googleProducts">
 
 					<h2>Iconic Products</h2>
 

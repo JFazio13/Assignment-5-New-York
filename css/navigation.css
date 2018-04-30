@@ -6,7 +6,7 @@
 	list-style-type: none;
 	margin: 0;
 	padding-left: 0;
-	margin-left: 70%;
+	float: right;
 }
 
 .nav li {
@@ -17,17 +17,19 @@
 	text-decoration: none;
 	display: block;
 	padding: .98em 1em;
-	color: #efefef;
+	color: white;
 }
 
 .nav a.is-current {
-	color: #C80000;
-	background-color: #efefef;
+	color: #989898;
 }
 
 .nav li a:hover {
-	color: #C80000;
-	background-color: #efefef;
+	color: #989898;
+	-webkit-transition: color 0.25s ease-out;
+	-moz-transition: color 0.25s ease-out;
+	-o-transition: color 0.25s ease-out;
+	transition: color 0.25s ease-out;
 }
 
 @media (max-width: 640px) {
@@ -40,7 +42,7 @@
 }
 
 .nav {
-	background-color: gray;
+	background-color: rgba(0,0,0,0.8);
 	position: fixed;
 	width: 100%;
 	top: 0;

@@ -17,12 +17,12 @@ include "includes/html-top.php";
 			<h1>Apple</h1>
 
 			<hr>
-
-			<div>
-				<img src="images/apple_head.jpg" alt="Apple">
+			<div class="logoRow">
+				<div>
+					<img src="images/apple_head.jpg" alt="Apple">
+				</div>
+				<p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. The company's hardware products include the iPhone smartphone, the iPad tablet computer, the Mac personal computer, the iPod portable media player, the Apple Watch smartwatch, the Apple TV digital media player, and the HomePod smart speaker. Apple's software includes the macOS and iOS operating systems, the iTunes media player, the Safari web browser, and the iLife and iWork creativity and productivity suites, as well as professional applications like Final Cut Pro, Logic Pro, and Xcode. Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and iCloud.</p>
 			</div>
-
-			<p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. The company's hardware products include the iPhone smartphone, the iPad tablet computer, the Mac personal computer, the iPod portable media player, the Apple Watch smartwatch, the Apple TV digital media player, and the HomePod smart speaker. Apple's software includes the macOS and iOS operating systems, the iTunes media player, the Safari web browser, and the iLife and iWork creativity and productivity suites, as well as professional applications like Final Cut Pro, Logic Pro, and Xcode. Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and iCloud.</p>
 
 			<hr>
 
@@ -72,7 +72,7 @@ include "includes/html-top.php";
 
 				<hr>
 
-				<div class="google">
+				<div class="appleProducts">
 
 					<h2>Iconic Products</h2>
 

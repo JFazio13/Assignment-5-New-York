@@ -1,5 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+header {
+	margin-top: 5%;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+}
+
 img {
 	max-width: 100%;
+}
+
+.container {
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+
+.mainPage {
+	display: flex;
+}
+
+.mainPage h2 {
+	text-align: center;
+}
+
+.apple {
+	width: 35%;
+	padding-right: 2.5%;
+}
+
+.google {
+	width: 35%;
+	padding-right: 2.5%;
+}
+
+.microsoft {
+	width: 35%;
+}
+
+.microsoftProducts {
+	display: flex;
+}
+
+.microsoftProductName {
+	text-align: center;
+}
+
+.microsoftImage {
+	text-align: center;
+}
+
+.windowsContent {
+	width: 50%;
+	margin-right: 2.5%;
+}
+
+.officeContent {
+	width: 50%;
 }
 
 .logo {
@@ -8,8 +71,15 @@ img {
 	margin-right: 5%;
 }
 
+.logoRow {
+	text-align: center;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
 .image {
-	max-width: 20%;
+	max-width: 50%;
+	text-align: center;
 }
 
 #google {

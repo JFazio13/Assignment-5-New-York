@@ -18,8 +18,8 @@ include "includes/html-top.php";
 		?>
 
 			<h1>Survey</h1>
-			
-			
+
+
 			<form action="insert.php" method="post">
 			<fieldset>
 			<label for="name">Name</label>
@@ -31,7 +31,7 @@ include "includes/html-top.php";
 				<option value="mircosoft">Mircosoft</option>
 				<option value="google">Google</option>
 			</select>
-	
+
 			<label for="computer">What type of computer do you use?</label>
 			<input type="text" id="computer" name="computer">
 
@@ -41,17 +41,18 @@ include "includes/html-top.php";
 
 
 			<hr>
+			<div class="logoRow">
+				<div class="logo">
+					<img src="images/apple.png" alt="Apple logo">
+				</div>
 
-			<div class="logo">
-				<img src="images/apple.png" alt="Apple logo">
-			</div>
+				<div class="logo">
+					<img src="images/google.png" alt="Google logo">
+				</div>
 
-			<div class="logo">
-				<img src="images/google.png" alt="Google logo">
-			</div>
-
-			<div class="logo">
-				<img src="images/microsoft.png" alt="Microsoft logo">
+				<div class="logo">
+					<img src="images/microsoft.png" alt="Microsoft logo">
+				</div>
 			</div>
 
 			<hr>
