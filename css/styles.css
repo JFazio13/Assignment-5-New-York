@@ -191,3 +191,64 @@ footer {
 	padding-bottom: 1%;
 	margin-left: 2.5%;
 }
+
+.surveyForm {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	text-align: center;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+fieldset {
+	border: none;
+}
+
+
+.wrapper {
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	margin-top: 10%;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-top: 2%;
+	padding-bottom: 2.5%;
+}
+
+input[type=text] {
+	border: none;
+	height: 25px;
+	margin-top: 1%;
+}
+
+input[type=password] {
+	border: none;
+	height: 25px;
+	margin-top: 1%;
+}
+
+input[type=submit] {
+	background-color: darkgrey;
+	border: none;
+	border-radius: 25px;
+	color: white;
+	height: 40px;
+	width: 125px;
+}
+
+input[type=submit]:hover {
+	background-color: black;
+	border: none;
+	border-radius: 25px;
+	color: white;
+	height: 40px;
+	width: 125px;
+	-webkit-transition: background-color 0.25s ease-out;
+	-moz-transition: background-color 0.25s ease-out;
+	-o-transition: background-color 0.25s ease-out;
+	transition: background-color 0.25s ease-out;
+}
