@@ -28,7 +28,7 @@ include "includes/html-top.php";
 
 			<br/>
 			<br/>
-			<label for="country">Pick One</label>
+			<label for="brand">Pick One</label>
 
 			<br/>
 			<select id="brand" name="brand">
@@ -66,8 +66,6 @@ include "includes/html-top.php";
 			</div>
 
 			<hr>
-
-			</div>
 
 			<?php include "includes/footer.php"; ?>
 
