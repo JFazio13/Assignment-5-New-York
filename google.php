@@ -16,20 +16,15 @@ include "includes/html-top.php";
 
 			<h1>Google</h1>
 
-			<hr>
-
 			<div class="logoRow">
 				<div>
 					<img id = "google" src="images/google_head.jpg" alt="Google">
 				</div>
 			</div>
-			<div class="logoRowText">
-				<p>Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University, California. Together, they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998. An Initial public offering (IPO) took place on August 19, 2004, and Google moved to its new headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google, Alphabet's leading subsidiary, will continue to be the umbrella company for Alphabet's Internet interests. Upon completion of the restructure, Sundar Pichai was appointed CEO of Google, replacing Larry Page, who became the CEO of Alphabet.</p>
-			</div>
-
-			<hr>
 
 			<div class="container">
+
+				<hr>
 
 				<div class="history">
 
@@ -42,16 +37,6 @@ include "includes/html-top.php";
 					<p>Page and Brin originally nicknamed their new search engine "BackRub", because the system checked backlinks to estimate the importance of a site.[13][14][15] Eventually, they changed the name to Google; the name of the search engine originated from a misspelling of the word "googol",[16][17] the number 1 followed by 100 zeros, which was picked to signify that the search engine was intended to provide large quantities of information.[18] Originally, Google ran under Stanford University's website, with the domains google.stanford.edu[19] and z.stanford.edu.</p>
 
 					<p>The domain name for Google was registered on September 15, 1997,[21] and the company was incorporated on September 4, 1998. It was based in the garage of a friend (Susan Wojcicki[9]) in Menlo Park, California. Craig Silverstein, a fellow PhD student at Stanford, was hired as the first employee.</p>
-
-					<h3>Growth</h3>
-
-					<p>In March 1999, the company moved its offices to Palo Alto, California,[51] which is home to several prominent Silicon Valley technology start-ups.[52] The next year, Google began selling advertisements associated with search keywords against Page and Brin's initial opposition toward an advertising-funded search engine.[53][9] In order to maintain an uncluttered page design, advertisements were solely text-based.</p>
-
-					<p>In 2001, Google received a patent for its PageRank mechanism.[58] The patent was officially assigned to Stanford University and lists Lawrence Page as the inventor. In 2003, after outgrowing two other locations, the company leased an office complex from Silicon Graphics, at 1600 Amphitheatre Parkway in Mountain View, California.[59] The complex became known as the Googleplex, a play on the word googolplex, the number one followed by a googol zeroes. The Googleplex interiors were designed by Clive Wilkinson Architects. Three years later, Google bought the property from SGI for $319 million.[60] By that time, the name "Google" had found its way into everyday language, causing the verb "google" to be added to the Merriam-Webster Collegiate Dictionary and the Oxford English Dictionary, denoted as: "to use the Google search engine to obtain information on the Internet".[61][62] The first use of "Google" as a verb in pop culture happened on the TV series Buffy the Vampire Slayer, in 2002.</p>
-
-					<p>In 2005, The Washington Post reported on a 700 percent increase in third-quarter profit for Google, largely thanks to large companies shifting their advertising strategies from newspapers, magazines, and television to the Internet.[64] In January 2008, all the data that passed through Google's MapReduce software component had an aggregated size of 20 petabytes per day.[65][66][67] In 2009, a CNN report about top political searches of 2009 noted that "more than a billion searches" are being typed into Google on a daily basis.[68] In May 2011, the number of monthly unique visitors to Google surpassed one billion for the first time, an 8.4 percent increase from May 2010 (931 million).</p>
-
-					<p>The year 2012 was the first time that Google generated $50 billion in annual revenue, which topped the $38 billion that was generated the previous year. In January 2013, then-CEO Larry Page commented, "We ended 2012 with a strong quarter ... Revenues were up 36% year-on-year, and 8% quarter-on-quarter. And we hit $50 billion in revenues for the first time last year – not a bad achievement in just a decade and a half."</p>
 
 					<h3>Recent Years</h3>
 
@@ -84,7 +69,7 @@ include "includes/html-top.php";
 							<img class = "image" src="images/gsuite.jpg" alt="GSuite">
 						</div>
 
-						<p>G Suite is a monthly subscription offering for organizations and businesses to get access to a collection of Google's services, including Gmail, Google Drive and Docs, Sheets, and Slides, with additional administrative tools, unique domain names, and 24/7 support. Google Search Appliance was launched in February 2002, targeted toward providing search technology for larger organizations.[9] Google launched the Mini three years later, which was targeted at smaller organizations. Late in 2006, Google began to sell Custom Search Business Edition, providing customers with an advertising-free window into Google.com's index. The service was renamed Google Site Search in 2008.[188] Site Search customers were notified by email in late March 2017 that no new licenses for Site Search would be sold after April 1, 2017, but that customer and technical support would be provided for the duration of existing license agreements.</p>
+						<p>G Suite is a monthly subscription offering for organizations and businesses to get access to a collection of Google's services, including Gmail, Google Drive and Docs, Sheets, and Slides, with additional administrative tools, unique domain names, and 24/7 support. Google Search Appliance was launched in February 2002, targeted toward providing search technology for larger organizations.[9] Google launched the Mini three years later, which was targeted at smaller organizations. Late in 2006, Google began to sell Custom Search Business Edition, providing customers with an advertising-free window into Google.com's index. The service was renamed Google Site Search in 2008.[188]</p>
 					</div>
 				</diV>
 
