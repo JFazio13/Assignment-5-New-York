@@ -9,7 +9,7 @@ h1 {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica Neue';
 	text-align: justify;
 }
 
@@ -18,8 +18,8 @@ img {
 }
 
 .container {
-	padding-right: 2.5%;
-	padding-left: 2.5%;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 .mainPage {
@@ -42,6 +42,80 @@ img {
 
 .microsoft {
 	width: 35%;
+}
+
+.appleProductsRowOne {
+	display: flex;
+}
+
+.appleProductsRowOne h3{
+	text-align: center;
+}
+
+.appleProductsRowTwo {
+	display: flex;
+}
+
+.appleProductsRowTwo h3{
+	text-align: center;
+}
+
+.appleImage {
+	text-align: center;
+}
+
+.appleProductOne {
+	width: 50%;
+	margin-right: 2.5%;
+}
+
+.appleProductTwo {
+	width: 50%;
+	margin-right: 2.5%;
+}
+
+.appleProductThree {
+	width: 50%;
+	margin-right: 2.5%;
+}
+
+.appleProductFour {
+	width: 50%;
+}
+
+.googleProductsRowOne {
+	display: flex;
+}
+
+.googleProductsRowOne h3{
+	text-align: center;
+}
+
+.googleProductsRowTwo {
+	display: flex;
+}
+
+.googleProductsRowTwo h3{
+	text-align: center;
+}
+
+.googleImage {
+	text-align: center;
+}
+
+.googleProductOne {
+	width: 50%;
+	margin-right: 2.5%;
+}
+
+.googleProductTwo {
+	width: 50%;
+	margin-right: 2.5%;
+}
+
+.googleProductThree {
+	margin-left: 25%;
+	width: 50%;
 }
 
 .microsoftProducts {
@@ -71,15 +145,25 @@ img {
 	margin-right: 5%;
 }
 
+.logoRowIndex {
+	text-align: center;
+	margin-left: 2.5%;
+}
+
 .logoRow {
 	text-align: center;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
+}
+
+.logoRowText {
+	text-align: justify;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
 }
 
 .image {
 	max-width: 50%;
 	text-align: center;
+	height: 175px;
 }
 
 #google {

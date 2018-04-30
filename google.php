@@ -22,6 +22,8 @@ include "includes/html-top.php";
 				<div>
 					<img id = "google" src="images/google_head.jpg" alt="Google">
 				</div>
+			</div>
+			<div class="logoRowText">
 				<p>Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University, California. Together, they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998. An Initial public offering (IPO) took place on August 19, 2004, and Google moved to its new headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google, Alphabet's leading subsidiary, will continue to be the umbrella company for Alphabet's Internet interests. Upon completion of the restructure, Sundar Pichai was appointed CEO of Google, replacing Larry Page, who became the CEO of Alphabet.</p>
 			</div>
 
@@ -61,26 +63,41 @@ include "includes/html-top.php";
 
 				<hr>
 
-				<div class="googleProducts">
-
 					<h2>Iconic Products</h2>
 
-					<h3>Search Engine</h3>
+					<div class="googleProductsRowOne">
 
-					<div>
-						<img class = "image" src="images/search.png" alt="Search">
+					<div class="googleProductOne">
+						<h3>Search Engine</h3>
+
+						<div class="googleImage">
+							<img class = "image" src="images/search.png" alt="Search">
+						</div>
+
+						<p>Google Search, commonly referred to as Google Web Search or simply Google, is a web search engine developed by Google. It is the most-used search engine on the World Wide Web,[5] handling more than three billion searches each day.[6][7] As of February 2016, it is the most used search engine in the US with 64.0% market share.[8] The order of search results returned by Google is based, in part, on a priority rank system called "PageRank". Google Search also provides many different options for customized search, using symbols to include, exclude, specify or require certain search behavior, and offers specialized interactive experiences, such as flight status and package tracking, weather forecasts, currency, unit and time conversions, word definitions, and more.</p>
 					</div>
 
-					<p>Google Search, commonly referred to as Google Web Search or simply Google, is a web search engine developed by Google. It is the most-used search engine on the World Wide Web,[5] handling more than three billion searches each day.[6][7] As of February 2016, it is the most used search engine in the US with 64.0% market share.[8] The order of search results returned by Google is based, in part, on a priority rank system called "PageRank". Google Search also provides many different options for customized search, using symbols to include, exclude, specify or require certain search behavior, and offers specialized interactive experiences, such as flight status and package tracking, weather forecasts, currency, unit and time conversions, word definitions, and more.</p>
+					<div class="googleProductTwo">
+						<h3>G Suite Enterprise</h3>
 
-					<h3>G Suite Enterprise</h3>
+						<div class="googleImage">
+							<img class = "image" src="images/gsuite.jpg" alt="GSuite">
+						</div>
 
-					<p>G Suite is a monthly subscription offering for organizations and businesses to get access to a collection of Google's services, including Gmail, Google Drive and Docs, Sheets, and Slides, with additional administrative tools, unique domain names, and 24/7 support. Google Search Appliance was launched in February 2002, targeted toward providing search technology for larger organizations.[9] Google launched the Mini three years later, which was targeted at smaller organizations. Late in 2006, Google began to sell Custom Search Business Edition, providing customers with an advertising-free window into Google.com's index. The service was renamed Google Site Search in 2008.[188] Site Search customers were notified by email in late March 2017 that no new licenses for Site Search would be sold after April 1, 2017, but that customer and technical support would be provided for the duration of existing license agreements.</p>
+						<p>G Suite is a monthly subscription offering for organizations and businesses to get access to a collection of Google's services, including Gmail, Google Drive and Docs, Sheets, and Slides, with additional administrative tools, unique domain names, and 24/7 support. Google Search Appliance was launched in February 2002, targeted toward providing search technology for larger organizations.[9] Google launched the Mini three years later, which was targeted at smaller organizations. Late in 2006, Google began to sell Custom Search Business Edition, providing customers with an advertising-free window into Google.com's index. The service was renamed Google Site Search in 2008.[188] Site Search customers were notified by email in late March 2017 that no new licenses for Site Search would be sold after April 1, 2017, but that customer and technical support would be provided for the duration of existing license agreements.</p>
+					</div>
+				</diV>
 
-					<h3>Hardware</h3>
+				<div class="googleProductsRowTwo">
+					<div class="googleProductThree">
+						<h3>Hardware</h3>
 
-					<p>In January 2010, Google released Nexus One, the first Android phone under its own, "Nexus", brand.[214] It spawned a number of phones and tablets under the "Nexus" branding[215] until its eventual discontinuation in 2016, replaced by a new brand called, Pixel.[216] In 2011, the Chromebook was introduced, described as a "new kind of computer" running Chrome OS.[217] In July 2013, Google introduced the Chromecast dongle, that allows users to stream content from their smartphones to televisions.[218][219] In June 2014, Google announced Google Cardboard, a simple cardboard viewer that lets user place their smartphone in a special front compartment to view virtual reality (VR) media.</p>
+						<div class="googleImage">
+							<img class = "image" src="images/chrome.jpeg" alt="Chromecast">
+						</div>
 
+						<p>In January 2010, Google released Nexus One, the first Android phone under its own, "Nexus", brand.[214] It spawned a number of phones and tablets under the "Nexus" branding[215] until its eventual discontinuation in 2016, replaced by a new brand called, Pixel.[216] In 2011, the Chromebook was introduced, described as a "new kind of computer" running Chrome OS.[217] In July 2013, Google introduced the Chromecast dongle, that allows users to stream content from their smartphones to televisions.[218][219] In June 2014, Google announced Google Cardboard, a simple cardboard viewer that lets user place their smartphone in a special front compartment to view virtual reality (VR) media.</p>
+					</div>
 				</div>
 
 			</div>

@@ -21,6 +21,8 @@ include "includes/html-top.php";
 				<div>
 					<img src="images/apple_head.jpg" alt="Apple">
 				</div>
+			</div>
+			<div class="logoRowText">
 				<p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. The company's hardware products include the iPhone smartphone, the iPad tablet computer, the Mac personal computer, the iPod portable media player, the Apple Watch smartwatch, the Apple TV digital media player, and the HomePod smart speaker. Apple's software includes the macOS and iOS operating systems, the iTunes media player, the Safari web browser, and the iLife and iWork creativity and productivity suites, as well as professional applications like Final Cut Pro, Logic Pro, and Xcode. Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and iCloud.</p>
 			</div>
 
@@ -72,42 +74,49 @@ include "includes/html-top.php";
 
 				<hr>
 
-				<div class="appleProducts">
+				<h2>Iconic Products</h2>
 
-					<h2>Iconic Products</h2>
+				<div class="appleProductsRowOne">
+					<div class="appleProductOne">
+						<h3>Mac</h3>
 
-					<h3>Mac</h3>
+						<div class="appleImage">
+							<img class = "image" src="images/mac.png" alt="Mac">
+						</div>
 
-					<div>
-						<img class = "image" src="images/mac.png" alt="Mac">
+						<p>The Macintosh (branded as Mac since 1998) is a family of personal computers designed, manufactured, and sold by Apple Inc. since January 1984. The original Macintosh was the company's first mass-market personal computer that featured a graphical user interface, built-in screen and mouse.[1] Apple sold the Macintosh alongside its popular Apple II family of computers for almost ten years before the latter was cancelled in 1993.</p>
+					</div>
+					<div class="appleProductTwo">
+						<h3>iPhone</h3>
+
+						<div class="appleImage">
+							<img class = "image" src="images/iphone.png" alt="iPhone">
+						</div>
+
+						<p>iPhone  is a line of smartphones designed and marketed by Apple Inc. The iPhone line of products use Apple's iOS mobile operating system software. The first-generation iPhone was released on June 29, 2007, and multiple new hardware iterations with new iOS releases have been released since. The user interface is built around the device's multi-touch screen, including a virtual keyboard. The iPhone has Wi-Fi and can connect to cellular networks. An iPhone can shoot video (though this was not a standard feature until the iPhone 3GS), take photos, play music, send and receive email, browse the web, send and receive text messages, follow GPS navigation, record notes, perform mathematical calculations, and receive visual voicemail. Other functionality, such as video games, reference works, and social networking, can be enabled by downloading mobile apps. As of January 2017, Apple's App Store contained more than 2.2 million applications available for the iPhone.</p>
+					</div>
+				</div>
+
+				<div class="appleProductsRowTwo">
+					<div class="appleProductThree">
+						<h3>iPad</h3>
+
+						<div class="appleImage">
+							<img class = "image" src="images/ipad.png" alt="iPad">
+						</div>
+
+						<p>iPad is a line of tablet computers designed, developed and marketed by Apple Inc., which run the iOS mobile operating system. The first iPad was released on April 3, 2010; the most recent iPad models are the iPad (2018), released on March 27, 2018, the 10.5-inch (270 mm) and 12.9-inch (330 mm) 2G iPad Pro released on June 13, 2017. The user interface is built around the device's multi-touch screen, including a virtual keyboard. All iPads can connect via Wi-Fi; some models also have cellular connectivity.</p>
 					</div>
 
-					<p>The Macintosh (branded as Mac since 1998) is a family of personal computers designed, manufactured, and sold by Apple Inc. since January 1984. The original Macintosh was the company's first mass-market personal computer that featured a graphical user interface, built-in screen and mouse.[1] Apple sold the Macintosh alongside its popular Apple II family of computers for almost ten years before the latter was cancelled in 1993.</p>
+					<div class="appleProductFour">
+						<h3>Apple Watch</h3>
 
-					<h3>iPhone</h3>
+						<div class="appleImage">
+							<img class = "image" src="images/watch.png" alt="Apple Watch">
+						</div>
 
-					<div>
-						<img class = "image" src="images/iphone.png" alt="iPhone">
+						<p>Apple Watch is a line of smartwatches designed, developed, and marketed by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services. Apple Watch relies on a wirelessly connected iPhone to perform many of its default functions such as calling and texting. Series 3 LTE Apple Watches are able to be used without needing to be consistently connected to an iPhone, though an iPhone is still required to set up the device. Most Apple Watches that are currently produced require an iPhone 5s or later with iOS 11; the Series 3 LTE model requires an iPhone 6 or later with iOS 11.</p>
 					</div>
-
-					<p>iPhone  is a line of smartphones designed and marketed by Apple Inc. The iPhone line of products use Apple's iOS mobile operating system software. The first-generation iPhone was released on June 29, 2007, and multiple new hardware iterations with new iOS releases have been released since. The user interface is built around the device's multi-touch screen, including a virtual keyboard. The iPhone has Wi-Fi and can connect to cellular networks. An iPhone can shoot video (though this was not a standard feature until the iPhone 3GS), take photos, play music, send and receive email, browse the web, send and receive text messages, follow GPS navigation, record notes, perform mathematical calculations, and receive visual voicemail. Other functionality, such as video games, reference works, and social networking, can be enabled by downloading mobile apps. As of January 2017, Apple's App Store contained more than 2.2 million applications available for the iPhone.</p>
-
-					<h3>iPad</h3>
-
-					<div>
-						<img class = "image" src="images/ipad.png" alt="iPad">
-					</div>
-
-					<p>iPad is a line of tablet computers designed, developed and marketed by Apple Inc., which run the iOS mobile operating system. The first iPad was released on April 3, 2010; the most recent iPad models are the iPad (2018), released on March 27, 2018, the 10.5-inch (270 mm) and 12.9-inch (330 mm) 2G iPad Pro released on June 13, 2017. The user interface is built around the device's multi-touch screen, including a virtual keyboard. All iPads can connect via Wi-Fi; some models also have cellular connectivity.</p>
-
-					<h3>Apple Watch</h3>
-
-					<div>
-						<img class = "image" src="images/watch.png" alt="Apple Watch">
-					</div>
-
-					<p>Apple Watch is a line of smartwatches designed, developed, and marketed by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services. Apple Watch relies on a wirelessly connected iPhone to perform many of its default functions such as calling and texting. Series 3 LTE Apple Watches are able to be used without needing to be consistently connected to an iPhone, though an iPhone is still required to set up the device. Most Apple Watches that are currently produced require an iPhone 5s or later with iOS 11; the Series 3 LTE model requires an iPhone 6 or later with iOS 11.</p>
-
 				</div>
 
 			</div>

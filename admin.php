@@ -1,13 +1,3 @@
-<?php
-// Initialize the session
-session_start();
- 
-// If session variable is not set it will redirect to login page
-if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-  header("location: login.php");
-  exit;
-}
-?>
 <!DOCTYPE html>
 <html>  
     <head>  
@@ -103,13 +93,8 @@ $(document).ready(function(){
     $(document).on('blur', '.brand', function(){  
         var id = $(this).data("id2");  
         var brand = $(this).text();  
-        edit_data(id, brand, "brand");  
-    }); 
-	$(document).on('blur', '.computer', function(){  
-        var id = $(this).data("id4");  
-        var computer = $(this).text();  
-        edit_data(id, computer, "computer");  
-    }); 
+        edit_data(id,brand, "brand");  
+    });  
     $(document).on('click', '.btn_delete', function(){  
         var id=$(this).data("id3");  
         if(confirm("Are you sure you want to delete this?"))  

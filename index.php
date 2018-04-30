@@ -18,7 +18,7 @@ include "includes/html-top.php";
 
 			<hr>
 
-			<div class="logoRow">
+			<div class="logoRowIndex">
 				<div class="logo">
 					<img src="images/apple.png" alt="Apple logo">
 				</div>
